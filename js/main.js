@@ -3,7 +3,7 @@
 
 function display(){
     document.querySelector(".display").style.display = "block"
-    let name = document.querySelector("#name").value;
+    let name = document.querySelector("#name").value.toLowerCase();
     if (name !== "theara" && name !== "theara rit" && name !== "zei ra"){
         document.querySelector("p").textContent = "Hello my friend " + name + " 😊";
     }else {
