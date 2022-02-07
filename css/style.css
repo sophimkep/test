@@ -39,7 +39,7 @@
     box-shadow: 0 5px #999;
 }
 #submit:hover{
-    background-color: #3e8e41
+    background: linear-gradient(0deg, rgba(34,195,169,1) 0%, rgba(150,85,205,1) 61%, rgba(204,33,222,1) 100%)
 }
 #submit:focus{
     background-color: #3e8e41;
